@@ -1,0 +1,21 @@
+<h2>Sign up for our newsletter to receive news and specials!</h2>
+<form class="form-horizontal" role="form" action="/process?form=newsletter" method="POST">
+    <input type="hidden" name="_csrf" value="{{csrf}}">
+    <div>
+        <label for="fieldName" >Name</label>
+        <div>
+            <input type="text" id="fieldName" name="name">
+        </div>
+    </div>
+    <div>
+        <label for="fieldEmail" >Email</label>
+        <div>
+            <input type="email" id="fieldName" name="email" required> 
+        </div>
+    </div>
+    <div>
+        <div>
+            <button type="submit">Registerup</button>
+        </div>
+    </div>
+</form>
