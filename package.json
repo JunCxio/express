@@ -5,15 +5,18 @@
   "main": "meadowlark.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node meadowlark.js"
+    "start": "supervisor meadowlark.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.4",
     "express": "^4.16.4",
-    "express3-handlebars": "^0.5.2"
+    "express-session": "^1.16.1",
+    "express3-handlebars": "^0.5.2",
+    "mongoose": "^5.5.4"
   },
   "devDependencies": {
     "grunt": "^1.0.4",

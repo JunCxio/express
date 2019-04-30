@@ -1,0 +1,11 @@
+module.exports={
+    cookieSecret:'cookie',
+    mongo:{
+        development:{
+            connnectionString:'mongodb://localhost/test'
+        },
+        production:{
+            connnectionString:'mongodb://localhost/db1'
+        }
+    }
+}
